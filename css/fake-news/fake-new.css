@@ -84,7 +84,7 @@
 }
 @media (max-width: 600px) {
   .fake-news-img img {
-    margin-top: 30px;
+    padding-top: 30px;
   }
 }
 .fake-news-accordion dt.active::after {
