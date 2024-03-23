@@ -1,0 +1,72 @@
+.container {
+  max-width: 1300px;
+  padding: 120px 20px;
+  margin: 0 auto;
+}
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+.detalhe::before {
+  content: "";
+  display: block;
+  background: url("../../imagem/SVG/detalhe.svg");
+  height: 52px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+/* animacão key */
+
+@keyframes showdown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes showdRigth {
+  from {
+    opacity: 0;
+    transform: translate3d(30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Reponsividade */
+@media (max-width: 800px) {
+  .container {
+    padding: 80px 15px;
+  }
+}
+@media (max-width: 750px) {
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px 20px;
+  }
+  .detalhe::before {
+    background: url("../../imagem/SVG/detalhe-2.svg") no-repeat;
+    margin-right: -10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .detalhe::before {
+    background: url("../../imagem/SVG/detalhe-3.svg") no-repeat;
+    margin-right: -30px;
+    height: 24px;
+  }
+}

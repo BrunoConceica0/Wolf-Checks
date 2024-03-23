@@ -1,0 +1,67 @@
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+.modal.active {
+  display: flex;
+  animation: showdown 0.5s forwards;
+}
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: var(--cor-bg-secundario);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  min-width: 370px;
+}
+.modal-container label {
+  display: block;
+}
+.modal-container input {
+  max-width: 100%;
+  padding: 0.5rem 0.7rem;
+  box-sizing: border-box;
+}
+.bi-x-circle-fill {
+  color: red !important;
+  font-size: 24px;
+}
+.close {
+  position: absolute;
+  right: -17px;
+  top: -15px;
+  cursor: pointer;
+  background: wheat;
+  width: 31.5px;
+  height: 31.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-bg-secundario);
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* chamando pelo atributo porque ele é um outro botão de fechar e já existe um para não dar conflito é necessário chama-lo pelo atributo */
+button[type="submit"] {
+  margin-top: 20px;
+  background: var(--cor-detalhe-4);
+  border-radius: 4px;
+  outline: none;
+  padding: 6px 18px;
+  border: transparent;
+  color: var(--cor-text-dark-1);
+  text-transform: uppercase;
+}

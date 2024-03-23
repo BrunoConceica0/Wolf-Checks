@@ -1,0 +1,118 @@
+.contato {
+  background: var(--cor-bg-terciario);
+}
+.contato-container {
+  background: var(--cor-bg-terciario);
+  color: var(--cor-subtitulo);
+}
+.contato h3 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.contato label {
+  display: block;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+  color: var(--cor-texto-2);
+}
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+  gap: 20px;
+}
+.contato textarea,
+.contato input[type="text"],
+.contato input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: var(--cor-cinza);
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+.contato textarea::selection,
+.contato input[type="text"]::selection,
+.contato input[type="email"]::selection {
+  background: var(--cor-detalhe-4);
+}
+.contato textarea:focus,
+.contato input[type="text"]:focus,
+.contato input[type="email"]:focus {
+  outline: none;
+  border: 2px solid var(--cor-detalhe-4);
+  background: var(--cor-bg-secundario);
+  box-shadow: 0 0 10px var(--cor-detaque-1);
+  color: var(--cor-text-dark-1);
+}
+.contato-campo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.links-extremos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links-extremos li {
+  margin: 0px 5px;
+}
+.links-extremos a {
+  padding: 5px 12px;
+}
+.bi {
+  color: var(--cor-detalhe-4);
+  margin-right: 10px;
+}
+.links-extremos a {
+  color: var(--cor-texto-2);
+}
+.btn {
+  padding: 12px 60px;
+  display: block;
+  max-width: 250px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid var(--cor-detalhe-4);
+  border-radius: 4px;
+  color: var(--cor-texto-2);
+}
+.btn:hover {
+  background-color: var(--cor-btn);
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: var(--cor-subtiulo-dark);
+  border: 2px solid transparent;
+}
+@media (max-width: 710px) {
+  .contato-campo {
+    flex-direction: column;
+  }
+  .links-extremos ul {
+    margin-top: 40px;
+  }
+  .btn {
+    padding: 10px 36px;
+  }
+}
+@media (max-width: 650px) {
+  .formulario {
+    display: block;
+  }
+  .btn {
+    padding: 10px 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .links-extremos ul {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .links-extremos li {
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,71 @@
+.header {
+  background: url("../../imagem/fotos/moedas.jpg") center/cover no-repeat;
+  padding: 40px 0 60px 0;
+}
+.header-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.wolf-checks-header h1 {
+  color: var(--cor-titulo-principal);
+  text-shadow: 1px 1px 2px black, 0 0 1em var(--cor-detalhe-2);
+}
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.nav-menu a {
+  text-transform: uppercase;
+  color: var(--cor-texto);
+  text-shadow: 1px 1px 2px black, 0 0 1em var(--cor-detalhe-2),
+    0 0 0.2em var(--cor-detalhe-2);
+  padding: 5px 12px;
+}
+.nav-menu a:hover {
+  color: var(--cor-detalhe-3);
+}
+
+.wolf-checks-header p {
+  color: var(--cor-subtitulo-principal);
+  padding-top: 40px;
+}
+.wolf-checks-header h1,
+.wolf-checks-header p,
+.header-menu a {
+  text-shadow: 1px 1px 2px black, 0 0 1em var(--cor-detalhe-2);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .header-intro {
+    display: grid;
+    grid-template-columns: 5fr 0.4fr;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: e;
+  }
+  .nav-menu {
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+  .nav-menu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .nav-menu {
+    display: none;
+  }
+}

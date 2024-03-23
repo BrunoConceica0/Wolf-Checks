@@ -1,0 +1,22 @@
+:root {
+  --cor-titulo-principal: #fafafa;
+  --cor-subtitulo-principal: #e2e2e2;
+  --cor-titulo: #f7f7f7;
+  --cor-subtitulo: #e0e2fa;
+  --cor-texto: #f7f7f7;
+  --cor-texto-2: #f7f7f7;
+  --cor-hover: #f1f1f1;
+  --cor-bg-primario: #0e0f11;
+  --cor-bg-secundario: #f2f3f9;
+  --cor-bg-terciario: #070a11;
+  --cor-detalhe-1: #e6e6e6;
+  --cor-detalhe-2: #242424;
+  --cor-detalhe-3: #e94e1b;
+  --cor-detalhe-4: #36a9e1;
+  --cor-text-dark-1: #242424;
+  --cor-text-dark-2: #474545;
+  --cor-subtiulo-dark: #080808;
+  --cor-cinza: #cecece;
+  --cor-branca: #f6f6f6;
+  --cor-btn: #4371be;
+}

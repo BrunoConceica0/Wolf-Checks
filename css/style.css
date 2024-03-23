@@ -1,0 +1,20 @@
+/* header */
+@import url("./header/header.css");
+@import url("./header/modal.css");
+
+/* utilidades */
+@import url("./utilidades/tipografia.css");
+@import url("./utilidades/cor.css");
+@import url("./utilidades/componentes.css");
+
+/* container */
+@import url("./objetivo.css");
+@import url("./contato.css");
+
+/* Fake News */
+@import url("./fake-news/fake-new.css");
+
+/* global */
+@import url("./global/copy-rigth.css");
+@import url("./global/global.css");
+@import url("./global/search.css");
