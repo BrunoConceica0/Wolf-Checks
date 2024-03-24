@@ -35,6 +35,8 @@
   margin: 50px 0;
   cursor: pointer;
 }
+.fake-news-img {
+}
 .fake-news-img img {
   object-fit: cover;
   object-position: center;
@@ -82,11 +84,7 @@
     object-position: center;
   }
 }
-@media (max-width: 600px) {
-  .fake-news-img img {
-    padding-top: 30px;
-  }
-}
 .fake-news-accordion dt.active::after {
   rotate: 180deg;
 }
+font-r-g

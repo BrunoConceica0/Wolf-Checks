@@ -15,7 +15,7 @@
 .objetivo-box h3 {
   padding: 60px 0 20px 0;
 }
-.objetivo-img {
+.objetivo-img img {
   grid-column: 3;
   grid-row: 2/5;
   object-fit: cover;

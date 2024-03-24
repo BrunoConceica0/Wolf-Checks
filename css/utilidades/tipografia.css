@@ -24,8 +24,8 @@
 .font-p-bp {
   font: 600 0.875em/1.5 "IBM Plex Sans", sans-serif;
 }
-.font-r-g {
-  font: 700 3em/1.5 "Roboto", sans-serif;
+.font-r-r {
+  font: 700 3em/1.5 "Red Hat Display", sans-serif;
 }
 .font-p-bm {
   font: 600 1.25em/1.3 "Roboto", sans-serif;
@@ -45,8 +45,8 @@
   .font-p-mm {
     font: 300 1.1em/1.3 "IBM Plex Sans", sans-serif;
   }
-  .font-r-g {
-    font: 700 2.5em/1.5 "Roboto", sans-serif;
+  .font-r-r {
+    font: 700 2.5em/1.5 "Red Hat Display", sans-serif;
   }
 }
 
@@ -70,8 +70,8 @@
 }
 
 @media (max-width: 450px) {
-  .font-r-g {
-    font: 700 1.5em/1.5 "Roboto", sans-serif;
+  .font-r-r {
+    font: 700 1.5em/1.5 "Red Hat Display", sans-serif;
   }
   .font-p-g {
     font: 700 1.5em/1.5 "IBM Plex Sans", sans-serif;

@@ -53,7 +53,9 @@
   border-radius: 50%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-
+.bi-person-fill {
+  font-size: 24px;
+}
 /* chamando pelo atributo porque ele é um outro botão de fechar e já existe um para não dar conflito é necessário chama-lo pelo atributo */
 button[type="submit"] {
   margin-top: 20px;
