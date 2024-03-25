@@ -27,7 +27,7 @@
   padding: 5px 12px;
 }
 .nav-menu a:hover {
-  color: var(--cor-detalhe-3);
+  color: var(--cor-detalhe-4);
 }
 
 .wolf-checks-header p {
@@ -64,8 +64,8 @@
     padding-top: 20px;
   }
 }
-@media (max-width: 650px) {
-  .nav-menu {
-    display: none;
+/* @media (max-width: 650px) {
+  .nav-menu ul {
+    flex-direction: column;
   }
-}
+} */

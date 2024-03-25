@@ -1,7 +1,6 @@
 export default function initModal() {
   const openLogin = document.querySelector("[data-modal='open'] a");
   const modal = document.querySelector("[data-modal='box']");
-  console.log(modal);
   const close = document.querySelector("[data-modal='close']");
   const eventUser = ["click", "touchstart", "change"];
 

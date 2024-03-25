@@ -15,18 +15,15 @@
 .objetivo-box h3 {
   padding: 60px 0 20px 0;
 }
-.objetivo-img img {
+.objetivo-img {
   grid-column: 3;
   grid-row: 2/5;
+}
+.objetivo-img img {
   object-fit: cover;
   object-position: center;
   box-shadow: 2px 0 6px 0px rgba(54, 169, 225, 0.6);
 }
-.objetivo-img img {
-  object-fit: cover;
-  object-position: center;
-}
-
 .objetivo-descricao {
   grid-column: 2;
 }
