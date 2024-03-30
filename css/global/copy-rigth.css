@@ -5,13 +5,12 @@
   display: grid;
   grid-template-columns: 3fr 5fr 2fr;
 }
-.rodape-rede-social ul {
+/* .rodape-rede-social ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
-}
+} */
 .rodape-contato ul {
-  border-bottom: 2px solid var(--cor-detalhe-1);
   max-width: 40%;
   margin: 10px 0;
 }
@@ -34,6 +33,7 @@
 }
 .rodape-copy-rigth p {
   color: var(--cor-cinza);
+  text-align: justify;
 }
 
 @media (max-width: 1100px) {

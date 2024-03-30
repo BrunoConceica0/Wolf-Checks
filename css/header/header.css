@@ -8,6 +8,8 @@
   justify-content: space-around;
   align-items: center;
   padding-bottom: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .wolf-checks-header h1 {
   color: var(--cor-titulo-principal);
@@ -64,8 +66,3 @@
     padding-top: 20px;
   }
 }
-/* @media (max-width: 650px) {
-  .nav-menu ul {
-    flex-direction: column;
-  }
-} */

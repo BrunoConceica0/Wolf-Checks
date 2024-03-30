@@ -20,25 +20,28 @@
 .fake-news-container p {
   color: var(--cor-texto);
   margin: 60px 0 40px 0;
+  text-align: justify;
 }
 .fake-news-container dd {
-  display: none;
+  display: block;
   color: var(--cor-texto);
   margin: 20px 0;
   animation: showdown 0.3s forwards;
+  text-align: justify;
 }
 .fake-news-container dd.active {
-  display: block;
+  display: none;
 }
 .fake-news-container dt {
   color: var(--cor-cinza);
   margin: 50px 0;
   cursor: pointer;
+  text-align: justify;
 }
 .fake-news-img img {
   object-fit: cover;
   object-position: center;
-  box-shadow: 2px 0 6px 0px rgba(233, 78, 27, 0.6);
+  box-shadow: 0px 0 6px rgba(233, 78, 27, 0.6);
   margin-top: 60px;
 }
 .fake-news-img::before {
@@ -84,4 +87,9 @@
 }
 .fake-news-accordion dt.active::after {
   rotate: 180deg;
+}
+@media (max-width: 650px) {
+  .fake-news-container dt {
+    margin: 30px 0;
+  }
 }

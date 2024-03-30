@@ -11,9 +11,11 @@
 .objetivo-box {
   display: grid;
   grid-template-columns: 1fr 5fr 3fr;
+  gap: 40px;
 }
 .objetivo-box h3 {
-  padding: 60px 0 20px 0;
+  padding: 20px 0;
+  text-align: justify;
 }
 .objetivo-img {
   grid-column: 3;
@@ -22,10 +24,13 @@
 .objetivo-img img {
   object-fit: cover;
   object-position: center;
-  box-shadow: 2px 0 6px 0px rgba(54, 169, 225, 0.6);
+  box-shadow: 0px 0 6px rgba(54, 169, 225, 0.6);
 }
 .objetivo-descricao {
   grid-column: 2;
+}
+.objetivo-descricao p {
+  text-align: justify;
 }
 @media (max-width: 1000px) {
   .objetivo-box {
@@ -40,6 +45,9 @@
   }
 }
 @media (max-width: 650px) {
+  .objetivo-box {
+    gap: 20px;
+  }
   .objetivo-box h3 {
     padding: 30px 0 10px 0;
   }
