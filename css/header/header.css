@@ -49,7 +49,8 @@
 }
 
 .fundadores img {
-  border-radius: 0px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .wrapper {
   display: flex;
